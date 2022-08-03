@@ -12,6 +12,7 @@ import org.testng.asserts.SoftAssert;
 
 import java.time.Duration;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class C02_WindowHandle {
     //todo
@@ -52,6 +53,7 @@ public class C02_WindowHandle {
         // ● Click Here butonuna basın.
         driver.findElement(By.linkText("Click Here")).click();
         Set<String>handles=driver.getWindowHandles();
+
 
 
         // ● Acilan yeni pencerenin sayfa başlığının (title) “New Window” oldugunu dogrulayin.
