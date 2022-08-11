@@ -12,8 +12,8 @@ import java.io.IOException;
 public class C01_ReadExcel {
     // todo
     // Biz fis ile okuduğumuz excel dosyasını projemiz içerisinden kullanmak için
-    // Apochi POI dependency yardımıyla bir Worbook oluşturduk.
-    // Bu worbook sayesinde bir adet kopya oluşturup kullanıyoruz.
+    // Apochi POI dependency yardımıyla bir Workbook oluşturduk.
+    // Bu workook sayesinde bir adet kopya oluşturup kullanıyoruz.
     // Excelin yapısı itibariyle hücreye ulaşmak için workbooktan başlayıp sheet ,row,cell ekadar gidip objeleri oluşturmamız lazım.
 
     @Test

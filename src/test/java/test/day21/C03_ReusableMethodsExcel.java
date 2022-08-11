@@ -21,7 +21,7 @@ public class C03_ReusableMethodsExcel {
         try {
             FileInputStream fis = new FileInputStream(path);
             Workbook workbook = WorkbookFactory.create(fis);
-            cell = workbook.getSheet("Sayfa1").getRow(rowIndex).getCell(cellIndex);
+            cell = workbook.getSheet(pageName).getRow(rowIndex).getCell(cellIndex);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {

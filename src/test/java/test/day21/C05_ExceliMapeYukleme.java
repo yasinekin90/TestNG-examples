@@ -21,5 +21,19 @@ public class C05_ExceliMapeYukleme {
 
         //Listede "Fas" ın oldugunu test edin.
         Assert.assertTrue(ulkelerMap.containsKey("Nepal"));
+
+        //bütün excel içerigini yazdırmak icin map i entry set e donusturmek gerekiyor
+     /*   for (Map.Entry<String,String> entry:ulkelerMap.entrySet()) {
+            System.out.println("Key: "+entry.getKey()+" Value: "+entry.getValue());
+        }*/
+
+        // keyler uzerinden verileri okuma seklinde de bütün excel içerigini yazdırabiliriz
+     /*   for (String key: ulkelerMap.keySet()) {
+            System.out.println("Key: "+key+"  Value: "+ulkelerMap.get(key));
+        }*/
+
+        //*  Value leri key göre yazdıralım..
+      /*  ulkelerMap.entrySet().stream().sorted(Map.Entry.comparingByValue())
+                .forEach(System.out::println);*/
     }
 }

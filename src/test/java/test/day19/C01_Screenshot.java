@@ -12,7 +12,7 @@ public class C01_Screenshot extends TestBase {
 
     //TakesScreenshot ts = (TakesScreenshot) driver;
     //        File tumResim = new File(pathname:"target/ekranResmi/tumSayfa");
-    //        File resimGecici = tss.getScreenshotAs(OutputType.FILE);
+    //        File resimGecici = ts.getScreenshotAs(OutputType.FILE);
     //        FileUtils.copyFile(resimGecici,tumResim);
 //todo
 // amazon anasayfaya gidin
